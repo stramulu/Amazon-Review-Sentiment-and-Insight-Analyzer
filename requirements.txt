@@ -1,0 +1,44 @@
+# Core NLP and ML libraries
+transformers==4.35.0
+torch==2.1.0
+sentence-transformers==2.2.2
+datasets==2.14.5
+
+# LangChain and related tools (modern setup)
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-openai==0.0.6
+faiss-cpu==1.7.4
+chromadb==0.4.15
+
+# Data processing
+pandas==2.1.3
+# Downgrade numpy to be compatible with tensorflow-macos
+numpy==1.23.5
+scikit-learn==1.3.2
+
+# Web framework
+streamlit==1.28.1
+
+# Jupyter notebooks
+jupyter==1.0.0
+ipykernel==6.25.2
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# Text processing
+nltk==3.8.1
+spacy==3.7.2
+textblob==0.17.1
+
+# Vector databases
+pinecone-client==2.2.4
+
+# API and HTTP
+requests==2.31.0
+aiohttp==3.9.1

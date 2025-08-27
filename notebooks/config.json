@@ -1,0 +1,5 @@
+{
+  "sentiment_model": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "summarizer_model": "facebook/bart-large-cnn",
+  "embedding_model": "multi-qa-MiniLM-L6-cos-v1"
+}
