@@ -52,10 +52,18 @@ pip install -r requirements.txt
 echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 ```
 
-## Data Setup
+## Dataset Setup
 
-The Amazon reviews dataset is  provided in the `data/Reviews.csv` file.  
-The CSV includes columns such as: `Summary`, `Text`, `HelpfulnessNumerator`, and `HelpfulnessDenominator`.
+This project uses the **Amazon Fine Food Reviews dataset** from Kaggle, which contains 568,000+ customer reviews.  
+
+Since the file is too large to upload directly, you’ll need to download it manually:
+
+1. Go to the Kaggle dataset page:  
+   👉 [Amazon Product Reviews](https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews)  
+
+2. Download the file `Reviews.csv`.  
+
+3. Place the file into the project’s `data/` folder:  
 
 ## Usage
 
