@@ -54,7 +54,7 @@ echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 
 ## Dataset Setup
 
-This project uses the **Amazon Fine Food Reviews dataset** from Kaggle, which contains 568,000+ customer reviews.  
+This project uses the **Amazon Product Reviews dataset** from Kaggle, which contains 568,000+ customer reviews.  
 
 Since the file is too large to upload directly, you’ll need to download it manually:
 
